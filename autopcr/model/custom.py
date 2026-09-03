@@ -5,7 +5,7 @@ from ..db.models import UnitStatusCoefficient
 from .enums import eInventoryType, eParamType
 from typing import List, Optional, Tuple, Counter as CounterType, Union
 from collections import Counter
-from pydantic import BaseModel, Field
+from .pydantic_compat import BaseModel, Field
 from dataclasses import dataclass
 from decimal import ROUND_CEILING, Decimal, ROUND_HALF_UP
 

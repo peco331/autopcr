@@ -1,6 +1,4 @@
-from pydantic.class_validators import make_generic_validator
-from pydantic.fields import ModelField
-from pydantic.validators import int_validator
+from .pydantic_compat import make_generic_validator, ModelField, int_validator
 
 from ..model.custom import TalentQuestData
 from . import responses, sdkrequests

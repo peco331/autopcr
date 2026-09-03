@@ -2,7 +2,7 @@ from typing import List, Dict
 from .modelbase import ResponseBase
 from .common import *
 from .enums import *
-from pydantic import Field
+from .pydantic_compat import Field
 
 class AcceptAgreementResponse(ResponseBase):
     pass
